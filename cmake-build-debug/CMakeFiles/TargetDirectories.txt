@@ -1,0 +1,3 @@
+/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/CMakeFiles/assignment3starter.dir
