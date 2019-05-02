@@ -13,6 +13,7 @@ add_executable(assignment3starter
         viewflip2d/util.h
         viewflip2d/vec2.h
         array2.h
+        array3.h
         grid.cpp
         grid.h
         main.cpp
@@ -21,4 +22,5 @@ add_executable(assignment3starter
         particles.h
         shared_main.h
         util.h
-        vec2.h)
+        vec2.h
+        vec3.h)

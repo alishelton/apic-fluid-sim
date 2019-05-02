@@ -87,6 +87,9 @@
 		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/array2.h">
 			<Option target="assignment3starter"/>
 		</Unit>
+		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/array3.h">
+			<Option target="assignment3starter"/>
+		</Unit>
 		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/grid.cpp">
 			<Option target="assignment3starter"/>
 		</Unit>
@@ -112,6 +115,9 @@
 			<Option target="assignment3starter"/>
 		</Unit>
 		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/vec2.h">
+			<Option target="assignment3starter"/>
+		</Unit>
+		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/vec3.h">
 			<Option target="assignment3starter"/>
 		</Unit>
 		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/viewflip2d/gluvi.cpp">
