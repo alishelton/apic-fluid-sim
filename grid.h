@@ -9,6 +9,7 @@
 #define GRID_H
 
 #include "array2.h"
+#include "array3.h"
 #include "util.h"
 
 #define AIRCELL 0
@@ -17,31 +18,31 @@
 
 struct Grid{
    float gravity;
-   float lx, ly;
+   float lx, ly, lz;
    float h, overh;
 
    // active variables
-   Array2f u, v; // staggered MAC grid of velocities
-   Array2f du, dv; // saved velocities and differences for particle update
-   Array2c marker; // identifies what sort of cell we have
-   Array2f phi; // decays away from water into air (used for extrapolating velocity)
-   Array2d pressure;
+   Array3f u, v, w; // staggered MAC grid of velocities
+   Array3f du, dv, dw; // saved velocities and differences for particle update
+   Array3c marker; // identifies what sort of cell we have
+   Array3f phi; // decays away from water into air (used for extrapolating velocity)
+   Array3d pressure;
    // stuff for the pressure solve
-   Array2x3f poisson;
-   Array2d preconditioner;
-   Array2d m;
-   Array2d r, z, s;
+   Array3x4f poisson; // TODO: this needs fixing, and 3x3 matrices
+   Array3d preconditioner;
+   Array3d m;
+   Array3d r, z, s;
 
    Grid(void)
    {}
 
-   Grid(float gravity_, int cell_nx, int cell_ny, float lx_)
-   { init(gravity_, cell_nx, cell_ny, lx_); }
+   Grid(float gravity_, int cell_nx, int cell_ny, int cell_nz, float lx_)
+   { init(gravity_, cell_nx, cell_ny, cell_nz, lx_); }
 
-   void init(float gravity_, int cell_nx, int cell_ny, float lx_);
+   void init(float gravity_, int cell_nx, int cell_ny, int cell_nz, float lx_);
    float CFL(void);
    void save_velocities(void);
-   void add_gravity(float dt, bool centered, float cx, float cy);
+   void add_gravity(float dt, bool centered, float cx, float cy, float cz);
    void compute_distance_to_fluid(void);
    void extend_velocity(void);
    void apply_boundary_conditions(void);
@@ -80,29 +81,58 @@ struct Grid{
       else{ fy=sy-floor(sy); }
    }
 
-   void bilerp_uv(float px, float py, float &pu, float &pv)
+   void bary_z(float z, int &k, float &fz)
    {
-      int i, j;
-      float fx, fy;
-      bary_x(px, i, fx);
-      bary_y_centre(py, j, fy);
-      pu=u.bilerp(i, j, fx, fy);
-      bary_x_centre(px, i, fx);
-      bary_y(py, j, fy);
-      pv=v.bilerp(i, j, fx, fy);
+       float sz=z*overh;
+       k=(int)sz;
+       fz=sz-floor(sz);
    }
+
+    void bary_z_centre(float z, int &k, float &fz)
+    {
+        float sz=z*overh-0.5;
+        k=(int)sz;
+        if(k<0){ k=0; fz=0.0; }
+        else if(k>pressure.ny-2){ k=pressure.nz-2; fz=1.0; }
+        else{ fz=sz-floor(sz); }
+    }
+
+    void trilerp_uvw(float px, float py, float pz, float &pu, float &pv, float &pw)
+    {
+        int i, j, k;
+        float fx, fy, fz;
+
+        bary_x(px, i, fx);
+        bary_y_centre(py, j, fy);
+        bary_z_centre(pz, k, fz);
+
+        pu=u.trilerp(i, j, k, fx, fy, fz);
+
+        bary_x_centre(px, i, fx);
+        bary_y(py, j, fy);
+        bary_z_centre(pz, k, fz);
+
+        pv=v.trilerp(i, j, k, fx, fy, fz);
+
+        bary_x_centre(px, i, fx);
+        bary_y_centre(py, j, fy);
+        bary_z(pz, k, fz);
+
+        pw=w.trilerp(i, j, k, fx, fy, fz);
+    }
 
    private:
    void init_phi(void);
    void sweep_phi(void);
-   void sweep_u(int i0, int i1, int j0, int j1);
-   void sweep_v(int i0, int i1, int j0, int j1);
+   void sweep_u(int i0, int i1, int j0, int j1, int k0, int k1); // TODO : these sweeps may need k0, k1
+   void sweep_v(int i0, int i1, int j0, int j1, int k0, int k1);
+   void sweep_w(int i0, int i1, int j0, int j1, int k0, int k1);
    void sweep_velocity(void);
    void find_divergence(void);
    void form_poisson(void);
    void form_preconditioner(void);
-   void apply_poisson(const Array2d &x, Array2d &y);
-   void apply_preconditioner(const Array2d &x, Array2d &y, Array2d &temp);
+   void apply_poisson(const Array3d &x, Array3d &y);
+   void apply_preconditioner(const Array3d &x, Array3d &y, Array3d &temp);
    void solve_pressure(int maxits, double tolerance);
    void add_gradient(void);
 };

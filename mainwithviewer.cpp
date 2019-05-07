@@ -83,7 +83,7 @@ int main(int argc, char **argv)
    float gravity = 9.8;
    if( USE_SPHERICAL_GRAV )
       gravity *= GRAV_FACTOR;
-   pGrid = new Grid(gravity, 50, 50, 1);
+   pGrid = new Grid(gravity, 50, 50, 50, 1);
    SimulationType sType = SIMULATION_TYPE;
    
    outputpath=".";
@@ -105,7 +105,7 @@ int main(int argc, char **argv)
    pParticles = new Particles(*pGrid, sType);
 
    Gluvi::init("fluid simulation viewer woohoo", &argc, argv);
-   init_water_drop(*pGrid, *pParticles, 2, 2);
+   init_water_drop(*pGrid, *pParticles, 2, 2, 2);
    pParticles->write_to_file("%s/frameparticles%04d", outputpath.c_str(), 0);
    stepCount = 0;
 
