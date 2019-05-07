@@ -231,6 +231,33 @@ particles.cpp.s:
 	$(MAKE) -f CMakeFiles/assignment3starter.dir/build.make CMakeFiles/assignment3starter.dir/particles.cpp.s
 .PHONY : particles.cpp.s
 
+simulator/main.o: simulator/main.cpp.o
+
+.PHONY : simulator/main.o
+
+# target to build an object file
+simulator/main.cpp.o:
+	$(MAKE) -f CMakeFiles/assignment3starter.dir/build.make CMakeFiles/assignment3starter.dir/simulator/main.cpp.o
+.PHONY : simulator/main.cpp.o
+
+simulator/main.i: simulator/main.cpp.i
+
+.PHONY : simulator/main.i
+
+# target to preprocess a source file
+simulator/main.cpp.i:
+	$(MAKE) -f CMakeFiles/assignment3starter.dir/build.make CMakeFiles/assignment3starter.dir/simulator/main.cpp.i
+.PHONY : simulator/main.cpp.i
+
+simulator/main.s: simulator/main.cpp.s
+
+.PHONY : simulator/main.s
+
+# target to generate assembly for a file
+simulator/main.cpp.s:
+	$(MAKE) -f CMakeFiles/assignment3starter.dir/build.make CMakeFiles/assignment3starter.dir/simulator/main.cpp.s
+.PHONY : simulator/main.cpp.s
+
 viewflip2d/gluvi.o: viewflip2d/gluvi.cpp.o
 
 .PHONY : viewflip2d/gluvi.o
@@ -306,6 +333,9 @@ help:
 	@echo "... particles.o"
 	@echo "... particles.i"
 	@echo "... particles.s"
+	@echo "... simulator/main.o"
+	@echo "... simulator/main.i"
+	@echo "... simulator/main.s"
 	@echo "... viewflip2d/gluvi.o"
 	@echo "... viewflip2d/gluvi.i"
 	@echo "... viewflip2d/gluvi.s"

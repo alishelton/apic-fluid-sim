@@ -83,9 +83,22 @@ CMakeFiles/assignment3starter.dir/viewflip2d/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment3starter.dir/viewflip2d/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alishelton/Desktop/184/Projects/assignment3starter/viewflip2d/main.cpp -o CMakeFiles/assignment3starter.dir/viewflip2d/main.cpp.s
 
+CMakeFiles/assignment3starter.dir/simulator/main.cpp.o: CMakeFiles/assignment3starter.dir/flags.make
+CMakeFiles/assignment3starter.dir/simulator/main.cpp.o: ../simulator/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/assignment3starter.dir/simulator/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assignment3starter.dir/simulator/main.cpp.o -c /Users/alishelton/Desktop/184/Projects/assignment3starter/simulator/main.cpp
+
+CMakeFiles/assignment3starter.dir/simulator/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment3starter.dir/simulator/main.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alishelton/Desktop/184/Projects/assignment3starter/simulator/main.cpp > CMakeFiles/assignment3starter.dir/simulator/main.cpp.i
+
+CMakeFiles/assignment3starter.dir/simulator/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment3starter.dir/simulator/main.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alishelton/Desktop/184/Projects/assignment3starter/simulator/main.cpp -o CMakeFiles/assignment3starter.dir/simulator/main.cpp.s
+
 CMakeFiles/assignment3starter.dir/grid.cpp.o: CMakeFiles/assignment3starter.dir/flags.make
 CMakeFiles/assignment3starter.dir/grid.cpp.o: ../grid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/assignment3starter.dir/grid.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/assignment3starter.dir/grid.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assignment3starter.dir/grid.cpp.o -c /Users/alishelton/Desktop/184/Projects/assignment3starter/grid.cpp
 
 CMakeFiles/assignment3starter.dir/grid.cpp.i: cmake_force
@@ -98,7 +111,7 @@ CMakeFiles/assignment3starter.dir/grid.cpp.s: cmake_force
 
 CMakeFiles/assignment3starter.dir/main.cpp.o: CMakeFiles/assignment3starter.dir/flags.make
 CMakeFiles/assignment3starter.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/assignment3starter.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/assignment3starter.dir/main.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assignment3starter.dir/main.cpp.o -c /Users/alishelton/Desktop/184/Projects/assignment3starter/main.cpp
 
 CMakeFiles/assignment3starter.dir/main.cpp.i: cmake_force
@@ -111,7 +124,7 @@ CMakeFiles/assignment3starter.dir/main.cpp.s: cmake_force
 
 CMakeFiles/assignment3starter.dir/mainwithviewer.cpp.o: CMakeFiles/assignment3starter.dir/flags.make
 CMakeFiles/assignment3starter.dir/mainwithviewer.cpp.o: ../mainwithviewer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/assignment3starter.dir/mainwithviewer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/assignment3starter.dir/mainwithviewer.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assignment3starter.dir/mainwithviewer.cpp.o -c /Users/alishelton/Desktop/184/Projects/assignment3starter/mainwithviewer.cpp
 
 CMakeFiles/assignment3starter.dir/mainwithviewer.cpp.i: cmake_force
@@ -124,7 +137,7 @@ CMakeFiles/assignment3starter.dir/mainwithviewer.cpp.s: cmake_force
 
 CMakeFiles/assignment3starter.dir/particles.cpp.o: CMakeFiles/assignment3starter.dir/flags.make
 CMakeFiles/assignment3starter.dir/particles.cpp.o: ../particles.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/assignment3starter.dir/particles.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/assignment3starter.dir/particles.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assignment3starter.dir/particles.cpp.o -c /Users/alishelton/Desktop/184/Projects/assignment3starter/particles.cpp
 
 CMakeFiles/assignment3starter.dir/particles.cpp.i: cmake_force
@@ -139,6 +152,7 @@ CMakeFiles/assignment3starter.dir/particles.cpp.s: cmake_force
 assignment3starter_OBJECTS = \
 "CMakeFiles/assignment3starter.dir/viewflip2d/gluvi.cpp.o" \
 "CMakeFiles/assignment3starter.dir/viewflip2d/main.cpp.o" \
+"CMakeFiles/assignment3starter.dir/simulator/main.cpp.o" \
 "CMakeFiles/assignment3starter.dir/grid.cpp.o" \
 "CMakeFiles/assignment3starter.dir/main.cpp.o" \
 "CMakeFiles/assignment3starter.dir/mainwithviewer.cpp.o" \
@@ -149,13 +163,14 @@ assignment3starter_EXTERNAL_OBJECTS =
 
 assignment3starter: CMakeFiles/assignment3starter.dir/viewflip2d/gluvi.cpp.o
 assignment3starter: CMakeFiles/assignment3starter.dir/viewflip2d/main.cpp.o
+assignment3starter: CMakeFiles/assignment3starter.dir/simulator/main.cpp.o
 assignment3starter: CMakeFiles/assignment3starter.dir/grid.cpp.o
 assignment3starter: CMakeFiles/assignment3starter.dir/main.cpp.o
 assignment3starter: CMakeFiles/assignment3starter.dir/mainwithviewer.cpp.o
 assignment3starter: CMakeFiles/assignment3starter.dir/particles.cpp.o
 assignment3starter: CMakeFiles/assignment3starter.dir/build.make
 assignment3starter: CMakeFiles/assignment3starter.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable assignment3starter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable assignment3starter"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/assignment3starter.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
