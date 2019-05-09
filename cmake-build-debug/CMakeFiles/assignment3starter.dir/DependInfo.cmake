@@ -19,13 +19,12 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../."
   "../viewflip2d"
   "../simulator"
-  "../glm/include"
   "../glfw-3.3/include"
-  "../glew-2.1.0/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/glfw-3.3/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

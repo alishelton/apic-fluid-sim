@@ -116,14 +116,14 @@ void Grid::
 compute_distance_to_fluid(void) // TODO see if needs index adjustment, i think it's fine though
 {
    init_phi();
-   for(int i=0; i<2; ++i)
+   for(int i=0; i<8; ++i)
       sweep_phi();
 }
 
 void Grid::
-extend_velocity(void) // TODO see if needs index adjustment
+extend_velocity(void)
 {
-   for(int i=0; i<4; ++i)
+   for(int i=0; i<8; ++i)
       sweep_velocity();
 }
 
@@ -171,7 +171,7 @@ get_velocity_update(void)
       du.data[i]=u.data[i]-du.data[i];
    for(i=0; i<v.size; ++i)
       dv.data[i]=v.data[i]-dv.data[i];
-   for(i=0; i<v.size; ++i)
+   for(i=0; i<w.size; ++i)
       dw.data[i]=w.data[i]-dw.data[i];
 }
 
@@ -180,7 +180,7 @@ get_velocity_update(void)
 void Grid::
 init_phi(void)
 {
-   int i, j,k;
+   int i,j,k;
    // start off with indicator inside the fluid and overestimates of distance outside
    float large_distance=phi.nx+phi.ny+phi.nz+2;
    for(i=0; i<phi.size; ++i)
@@ -192,12 +192,22 @@ init_phi(void)
    }
 }
 
-static inline void solve_distance(float p, float q, float &r) // TODO : does this need fixing? don't think so
+static inline void solve_distance(float p, float q, float t, float &r)
 {
-   float d=fmin(p,q)+1;
-   if(d>fmax(p,q)) 
-      d=(p+q+sqrt(2-sqr(p-q)))/2;
-   if(d<r) r=d;
+    float pq_min = fmin(p,q), pq_max = fmax(p,q);
+    float min3 = fmin(t,pq_min);
+    float max3 = fmax(t,pq_max);
+    float mid3 = fmax(pq_min,fmin(pq_max,t));
+
+    float d = min3 + 1;
+    if (d > mid3) {
+        d=(min3+mid3+sqrt(2-sqr(min3-mid3)))/2;
+        if (d > max3) {
+            d=(min3+mid3+max3+sqrt(3-2*(min3*min3-min3*mid3-min3*max3+mid3*mid3-mid3*max3+max3*max3)))/3;
+        }
+    }
+    if (d < r)
+        r=d;
 }
 
 void Grid::
@@ -207,28 +217,35 @@ sweep_phi(void)
    int i, j, k;
    for(j=1; j<phi.ny; ++j) for(i=1; i<phi.nx; ++i) for(k=1; k < phi.nz; ++k)
       if(marker(i,j,k)!=FLUIDCELL)
-         solve_distance(phi(i-1,j,k), phi(i,j-1,k), phi(i,j,k));
+         solve_distance(phi(i-1,j,k), phi(i,j-1,k), phi(i,j,k-1), phi(i,j,k));
+
    for(j=phi.ny-2; j>=0; --j) for(i=1; i<phi.nx; ++i) for(k=1; k < phi.nz; ++k)
       if(marker(i,j,k)!=FLUIDCELL)
-         solve_distance(phi(i-1,j,k), phi(i,j+1,k), phi(i,j,k));
+         solve_distance(phi(i-1,j,k), phi(i,j+1,k), phi(i,j,k-1), phi(i,j,k));
+
    for(j=1; j<phi.ny; ++j) for(i=phi.nx-2; i>=0; --i) for(k=1; k < phi.nz; ++k)
       if(marker(i,j,k)!=FLUIDCELL)
-         solve_distance(phi(i+1,j,k), phi(i,j-1,k), phi(i,j,k));
+         solve_distance(phi(i+1,j,k), phi(i,j-1,k), phi(i,j,k-1), phi(i,j,k));
+
    for(j=phi.ny-2; j>=0; --j) for(i=phi.nx-2; i>=0; --i) for(k=1; k < phi.nz; ++k)
       if(marker(i,j,k)!=FLUIDCELL)
-         solve_distance(phi(i+1,j,k), phi(i,j+1,k), phi(i,j,k));
-   for(j=1; j<phi.ny; ++j) for(i=1; i<phi.nx; ++i) for(k=1; k < phi.nz; ++k)
-      if(marker(i,j,k)!=FLUIDCELL)
-         solve_distance(phi(i,j,k-1), phi(i,j-1,k), phi(i,j,k));
-   for(j=phi.ny-2; j>=0; --j) for(i=1; i<phi.nx; ++i) for(k=1; k < phi.nz; ++k)
-      if(marker(i,j,k)!=FLUIDCELL)
-         solve_distance(phi(i,j,k-1), phi(i,j+1,k), phi(i,j,k));
+         solve_distance(phi(i+1,j,k), phi(i,j+1,k), phi(i,j,k-1), phi(i,j,k));
+
    for(j=1; j<phi.ny; ++j) for(i=1; i<phi.nx; ++i) for(k=phi.nz-2; k>=0; --k)
       if(marker(i,j,k)!=FLUIDCELL)
-         solve_distance(phi(i,j,k+1), phi(i-1,j,k), phi(i,j,k));
+         solve_distance(phi(i-1,j,k), phi(i,j-1,k), phi(i,j,k+1), phi(i,j,k));
+
+   for(j=phi.ny-2; j>=0; --j) for(i=1; i<phi.nx; ++i) for(k=phi.nz-2; k>=0; --k)
+      if(marker(i,j,k)!=FLUIDCELL)
+         solve_distance(phi(i-1,j,k), phi(i,j+1,k), phi(i,j,k+1), phi(i,j,k));
+
    for(j=1; j<phi.ny; ++j) for(i=phi.nx-2; i>=0; --i) for(k=phi.nz-2; k>=0; --k)
       if(marker(i,j,k)!=FLUIDCELL)
-         solve_distance(phi(i,j,k+1), phi(i+1,j,k), phi(i,j,k));
+         solve_distance(phi(i+1,j,k), phi(i,j-1,k), phi(i,j,k+1), phi(i,j,k));
+
+    for(j=phi.ny-2; j>=0; --j) for(i=phi.nx-2; i>=0; --i) for(k=phi.nz-2; k>=0; --k)
+      if(marker(i,j,k)!=FLUIDCELL)
+         solve_distance(phi(i+1,j,k), phi(i,j+1,k), phi(i,j,k+1), phi(i,j,k));
 }
 
 void Grid::
@@ -382,7 +399,7 @@ find_divergence(void)
 }
 
 void Grid::
-form_poisson(void) // TODO fix these, need to better learn what A represents
+form_poisson(void)
 {
    poisson.zero();
    for(int j=1; j<poisson.ny-1; ++j) for(int i=1; i<poisson.nx-1; ++i) for(int k=1; k<poisson.nz-1; ++k) {
@@ -415,10 +432,10 @@ form_poisson(void) // TODO fix these, need to better learn what A represents
 }
 
 void Grid::
-apply_poisson(const Array3d &x, Array3d &y) // TODO : this might be wonky
+apply_poisson(const Array3d &x, Array3d &y)
 {
    y.zero();
-   for(int j=1; j<poisson.ny-1; ++j) for(int i=1; i<poisson.nx-1; ++i) for(int k=1; k<poisson.nx-1; ++k){
+   for(int j=1; j<poisson.ny-1; ++j) for(int i=1; i<poisson.nx-1; ++i) for(int k=1; k<poisson.nz-1; ++k){
       if(marker(i,j,k)==FLUIDCELL){
          y(i,j,k)=poisson(i,j,k,0)*x(i,j,k) + poisson(i-1,j,k,1)*x(i-1,j,k)
                                       + poisson(i,j,k,1)*x(i+1,j,k)
@@ -456,7 +473,7 @@ apply_preconditioner(const Array3d &x, Array3d &y, Array3d &m)
    float d;
    m.zero();
    // solve L*m=x
-   for(j=1; j<x.ny-1; ++j) for(i=1; i<x.nx-1; ++i) for(k=1; k<x.nz; ++k)
+   for(j=1; j<x.ny-1; ++j) for(i=1; i<x.nx-1; ++i) for(k=1; k<x.nz-1; ++k)
       if(marker(i,j,k)==FLUIDCELL){
          d=x(i,j,k) - poisson(i-1,j,k,1)*preconditioner(i-1,j,k)*m(i-1,j,k)
                     - poisson(i,j-1,k,2)*preconditioner(i,j-1,k)*m(i,j-1,k)
@@ -509,17 +526,17 @@ void Grid::
 add_gradient(void) // TODO : is the 2 right? what does it mean?
 {
    int i, j,k;
-   for(j=1; j<u.ny-1; ++j) for(i=2; i<u.nx-2; ++i) for(k=1; k<u.ny-1; ++k) {
+   for(j=1; j<u.ny-1; ++j) for(i=2; i<u.nx-2; ++i) for(k=1; k<u.nz-1; ++k) {
       if(marker(i-1,j,k)|marker(i,j,k)==FLUIDCELL){ // if at least one is FLUID, neither is SOLID
          u(i,j,k)+=pressure(i,j,k)-pressure(i-1,j,k);
       }
    }
-   for(j=2; j<v.ny-2; ++j) for(i=1; i<v.nx-1; ++i) for(k=1; k<u.ny-1; ++k) {
+   for(j=2; j<v.ny-2; ++j) for(i=1; i<v.nx-1; ++i) for(k=1; k<v.nz-1; ++k) {
       if(marker(i,j-1,k)|marker(i,j,k)==FLUIDCELL){ // if at least one is FLUID, neither is SOLID
          v(i,j,k)+=pressure(i,j,k)-pressure(i,j-1,k);
       }
    }
-   for(j=1; j<v.ny-1; ++j) for(i=1; i<v.nx-1; ++i) for(k=2; k<u.ny-2; ++k) {
+   for(j=1; j<w.ny-1; ++j) for(i=1; i<w.nx-1; ++i) for(k=2; k<w.nz-2; ++k) {
       if(marker(i,j,k-1)|marker(i,j,k)==FLUIDCELL){ // if at least one is FLUID, neither is SOLID
          w(i,j,k)+=pressure(i,j,k)-pressure(i,j,k-1);
       }

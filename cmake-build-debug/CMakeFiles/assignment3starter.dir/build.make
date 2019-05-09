@@ -169,6 +169,7 @@ assignment3starter: CMakeFiles/assignment3starter.dir/main.cpp.o
 assignment3starter: CMakeFiles/assignment3starter.dir/mainwithviewer.cpp.o
 assignment3starter: CMakeFiles/assignment3starter.dir/particles.cpp.o
 assignment3starter: CMakeFiles/assignment3starter.dir/build.make
+assignment3starter: glfw-3.3/src/libglfw3.a
 assignment3starter: CMakeFiles/assignment3starter.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable assignment3starter"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/assignment3starter.dir/link.txt --verbose=$(VERBOSE)

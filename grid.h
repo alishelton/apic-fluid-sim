@@ -28,7 +28,7 @@ struct Grid{
    Array3f phi; // decays away from water into air (used for extrapolating velocity)
    Array3d pressure;
    // stuff for the pressure solve
-   Array3x4f poisson; // TODO: this needs fixing, and 3x3 matrices
+   Array3x4f poisson;
    Array3d preconditioner;
    Array3d m;
    Array3d r, z, s;
@@ -124,7 +124,7 @@ struct Grid{
    private:
    void init_phi(void);
    void sweep_phi(void);
-   void sweep_u(int i0, int i1, int j0, int j1, int k0, int k1); // TODO : these sweeps may need k0, k1
+   void sweep_u(int i0, int i1, int j0, int j1, int k0, int k1);
    void sweep_v(int i0, int i1, int j0, int j1, int k0, int k1);
    void sweep_w(int i0, int i1, int j0, int j1, int k0, int k1);
    void sweep_velocity(void);

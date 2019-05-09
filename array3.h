@@ -108,7 +108,7 @@ struct Array3x4{
         nx=nx_;
         ny=ny_;
         nz=nz_;
-        size=3*nx*ny*nz;
+        size=4*nx*ny*nz;
         data=new T[size];
         zero();
     }
