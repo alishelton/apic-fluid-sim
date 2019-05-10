@@ -93,7 +93,7 @@ struct Grid{
         float sz=z*overh-0.5;
         k=(int)sz;
         if(k<0){ k=0; fz=0.0; }
-        else if(k>pressure.ny-2){ k=pressure.nz-2; fz=1.0; }
+        else if(k>pressure.nz-2){ k=pressure.nz-2; fz=1.0; }
         else{ fz=sz-floor(sz); }
     }
 
