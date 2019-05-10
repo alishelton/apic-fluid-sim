@@ -31,7 +31,7 @@ float fluidphi(Grid &grid, float x, float y, float z) // TODO : need to fix this
 //   return min(sqrt(sqr(x-0.3333*grid.lx)+sqr(y-0.71*grid.ly)+sqr(z-0.3333*grid.lz))-0.3*grid.ly, y-0.2*grid.ly); // large drop
    //return max(y-0.8*grid.ly, -sqrt(sqr(x-0.5*grid.lx)+sqr(y-0.2*grid.ly))+0.1*grid.lx); // bubble
    //return sqrt(sqr(x-0.5*grid.lx)+sqr(y-0.75*grid.ly))-0.15*grid.lx; // large drop without bottom
-   return min(y-INIT_FLOOR_SIZE*grid.ly, sqrt(sqr(x-0.5*grid.lx)+sqr(y-0.7*grid.ly)+sqr(z-0.5*grid.lz))-INIT_DROP_RADIUS*grid.lx); // medium drop
+   return min(y-INIT_FLOOR_SIZE*grid.ly, sqrt(sqr(x-0.5*grid.lx)+sqr(y-0.5*grid.ly)+sqr(z-0.5*grid.lz))-INIT_DROP_RADIUS*grid.lx); // medium drop
    //return 0.75*grid.lx-x; // vertical column
 //   return max( max(x-0.75*grid.lx, 0.25*grid.lx-x), max(y-0.75*grid.ly, 0.25*grid.ly-y), max(z-0.75*grid.lz, 0.25*grid.lz-z) ); // small box
 }

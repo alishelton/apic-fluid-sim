@@ -20,6 +20,7 @@ init(float gravity_, int cell_nx, int cell_ny, int cell_nz, float lx_)
    gravity=gravity_;
    lx=lx_;
    ly=cell_ny*lx/cell_nx;
+   lz=cell_nz*lx/cell_nx;
    h=lx/cell_nx;
    overh=cell_nx/lx;
    // allocate all the grid variables
