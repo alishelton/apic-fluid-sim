@@ -6,5 +6,5 @@ CXX_FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/Ma
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/alishelton/Desktop/184/Projects/assignment3starter/. -I/Users/alishelton/Desktop/184/Projects/assignment3starter/viewflip2d -I/Users/alishelton/Desktop/184/Projects/assignment3starter/simulator -I/Users/alishelton/Desktop/184/Projects/assignment3starter/glfw-3.3/include 
+CXX_INCLUDES = -I/Users/alishelton/Desktop/184/Projects/assignment3starter/. -I/Users/alishelton/Desktop/184/Projects/assignment3starter/viewflip2d 
 

@@ -56,52 +56,6 @@ CMAKE_BINARY_DIR = /Users/alishelton/Desktop/184/Projects/assignment3starter/cma
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
-
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
-
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
-
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -168,32 +122,6 @@ assignment3starter: cmake_check_build_system
 assignment3starter/fast:
 	$(MAKE) -f CMakeFiles/assignment3starter.dir/build.make CMakeFiles/assignment3starter.dir/build
 .PHONY : assignment3starter/fast
-
-#=============================================================================
-# Target rules for targets named uninstall
-
-# Build rule for target.
-uninstall: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 uninstall
-.PHONY : uninstall
-
-# fast build rule for target.
-uninstall/fast:
-	$(MAKE) -f glfw-3.3/CMakeFiles/uninstall.dir/build.make glfw-3.3/CMakeFiles/uninstall.dir/build
-.PHONY : uninstall/fast
-
-#=============================================================================
-# Target rules for targets named glfw
-
-# Build rule for target.
-glfw: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 glfw
-.PHONY : glfw
-
-# fast build rule for target.
-glfw/fast:
-	$(MAKE) -f glfw-3.3/src/CMakeFiles/glfw.dir/build.make glfw-3.3/src/CMakeFiles/glfw.dir/build
-.PHONY : glfw/fast
 
 grid.o: grid.cpp.o
 
@@ -303,33 +231,6 @@ particles.cpp.s:
 	$(MAKE) -f CMakeFiles/assignment3starter.dir/build.make CMakeFiles/assignment3starter.dir/particles.cpp.s
 .PHONY : particles.cpp.s
 
-simulator/main.o: simulator/main.cpp.o
-
-.PHONY : simulator/main.o
-
-# target to build an object file
-simulator/main.cpp.o:
-	$(MAKE) -f CMakeFiles/assignment3starter.dir/build.make CMakeFiles/assignment3starter.dir/simulator/main.cpp.o
-.PHONY : simulator/main.cpp.o
-
-simulator/main.i: simulator/main.cpp.i
-
-.PHONY : simulator/main.i
-
-# target to preprocess a source file
-simulator/main.cpp.i:
-	$(MAKE) -f CMakeFiles/assignment3starter.dir/build.make CMakeFiles/assignment3starter.dir/simulator/main.cpp.i
-.PHONY : simulator/main.cpp.i
-
-simulator/main.s: simulator/main.cpp.s
-
-.PHONY : simulator/main.s
-
-# target to generate assembly for a file
-simulator/main.cpp.s:
-	$(MAKE) -f CMakeFiles/assignment3starter.dir/build.make CMakeFiles/assignment3starter.dir/simulator/main.cpp.s
-.PHONY : simulator/main.cpp.s
-
 viewflip2d/gluvi.o: viewflip2d/gluvi.cpp.o
 
 .PHONY : viewflip2d/gluvi.o
@@ -390,15 +291,9 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... install/local"
-	@echo "... install/strip"
-	@echo "... install"
-	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... assignment3starter"
-	@echo "... uninstall"
-	@echo "... glfw"
 	@echo "... grid.o"
 	@echo "... grid.i"
 	@echo "... grid.s"
@@ -411,9 +306,6 @@ help:
 	@echo "... particles.o"
 	@echo "... particles.i"
 	@echo "... particles.s"
-	@echo "... simulator/main.o"
-	@echo "... simulator/main.i"
-	@echo "... simulator/main.s"
 	@echo "... viewflip2d/gluvi.o"
 	@echo "... viewflip2d/gluvi.i"
 	@echo "... viewflip2d/gluvi.s"

@@ -5,53 +5,13 @@
 		<Option title="assignment3starter"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\glfw-3.3\;CMake Files\glfw-3.3\src\;CMake Files\glm\;"/>
+		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="install/local">
-				<Option working_dir="/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="install/strip">
-				<Option working_dir="/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="install">
-				<Option working_dir="/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="list_install_components">
-				<Option working_dir="/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -86,8 +46,6 @@
 				<Compiler>
 					<Add directory="/Users/alishelton/Desktop/184/Projects/assignment3starter/."/>
 					<Add directory="/Users/alishelton/Desktop/184/Projects/assignment3starter/viewflip2d"/>
-					<Add directory="/Users/alishelton/Desktop/184/Projects/assignment3starter/simulator"/>
-					<Add directory="/Users/alishelton/Desktop/184/Projects/assignment3starter/glfw-3.3/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
@@ -111,8 +69,6 @@
 				<Compiler>
 					<Add directory="/Users/alishelton/Desktop/184/Projects/assignment3starter/."/>
 					<Add directory="/Users/alishelton/Desktop/184/Projects/assignment3starter/viewflip2d"/>
-					<Add directory="/Users/alishelton/Desktop/184/Projects/assignment3starter/simulator"/>
-					<Add directory="/Users/alishelton/Desktop/184/Projects/assignment3starter/glfw-3.3/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
@@ -127,156 +83,12 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="uninstall">
-				<Option working_dir="/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/glfw-3.3"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/glfw-3.3/Makefile&quot;  VERBOSE=1 uninstall"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/glfw-3.3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/glfw-3.3/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/glfw-3.3/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="glfw">
-				<Option output="/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/glfw-3.3/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/glfw-3.3/src"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-D_GLFW_USE_CONFIG_H"/>
-					<Add directory="/Users/alishelton/Desktop/184/Projects/assignment3starter/."/>
-					<Add directory="/Users/alishelton/Desktop/184/Projects/assignment3starter/viewflip2d"/>
-					<Add directory="/Users/alishelton/Desktop/184/Projects/assignment3starter/simulator"/>
-					<Add directory="/Users/alishelton/Desktop/184/Projects/assignment3starter/glfw-3.3/include"/>
-					<Add directory="/Users/alishelton/Desktop/184/Projects/assignment3starter/glfw-3.3/src"/>
-					<Add directory="/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/glfw-3.3/src"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/glfw-3.3/src/Makefile&quot;  VERBOSE=1 glfw"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/glfw-3.3/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/glfw-3.3/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/glfw-3.3/src/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="glfw/fast">
-				<Option output="/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/glfw-3.3/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/glfw-3.3/src"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-D_GLFW_USE_CONFIG_H"/>
-					<Add directory="/Users/alishelton/Desktop/184/Projects/assignment3starter/."/>
-					<Add directory="/Users/alishelton/Desktop/184/Projects/assignment3starter/viewflip2d"/>
-					<Add directory="/Users/alishelton/Desktop/184/Projects/assignment3starter/simulator"/>
-					<Add directory="/Users/alishelton/Desktop/184/Projects/assignment3starter/glfw-3.3/include"/>
-					<Add directory="/Users/alishelton/Desktop/184/Projects/assignment3starter/glfw-3.3/src"/>
-					<Add directory="/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/glfw-3.3/src"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/glfw-3.3/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/glfw-3.3/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/glfw-3.3/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/glfw-3.3/src/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 		</Build>
 		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/array2.h">
 			<Option target="assignment3starter"/>
 		</Unit>
 		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/array3.h">
 			<Option target="assignment3starter"/>
-		</Unit>
-		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/glfw-3.3/src/glfw_config.h">
-			<Option target="glfw"/>
-		</Unit>
-		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/glfw-3.3/include/GLFW/glfw3.h">
-			<Option target="glfw"/>
-		</Unit>
-		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/glfw-3.3/include/GLFW/glfw3native.h">
-			<Option target="glfw"/>
-		</Unit>
-		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/glfw-3.3/src/cocoa_init.m">
-			<Option target="glfw"/>
-		</Unit>
-		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/glfw-3.3/src/cocoa_joystick.h">
-			<Option target="glfw"/>
-		</Unit>
-		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/glfw-3.3/src/cocoa_joystick.m">
-			<Option target="glfw"/>
-		</Unit>
-		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/glfw-3.3/src/cocoa_monitor.m">
-			<Option target="glfw"/>
-		</Unit>
-		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/glfw-3.3/src/cocoa_platform.h">
-			<Option target="glfw"/>
-		</Unit>
-		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/glfw-3.3/src/cocoa_time.c">
-			<Option target="glfw"/>
-		</Unit>
-		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/glfw-3.3/src/cocoa_window.m">
-			<Option target="glfw"/>
-		</Unit>
-		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/glfw-3.3/src/context.c">
-			<Option target="glfw"/>
-		</Unit>
-		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/glfw-3.3/src/egl_context.c">
-			<Option target="glfw"/>
-		</Unit>
-		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/glfw-3.3/src/egl_context.h">
-			<Option target="glfw"/>
-		</Unit>
-		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/glfw-3.3/src/init.c">
-			<Option target="glfw"/>
-		</Unit>
-		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/glfw-3.3/src/input.c">
-			<Option target="glfw"/>
-		</Unit>
-		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/glfw-3.3/src/internal.h">
-			<Option target="glfw"/>
-		</Unit>
-		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/glfw-3.3/src/mappings.h">
-			<Option target="glfw"/>
-		</Unit>
-		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/glfw-3.3/src/monitor.c">
-			<Option target="glfw"/>
-		</Unit>
-		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/glfw-3.3/src/nsgl_context.h">
-			<Option target="glfw"/>
-		</Unit>
-		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/glfw-3.3/src/nsgl_context.m">
-			<Option target="glfw"/>
-		</Unit>
-		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/glfw-3.3/src/osmesa_context.c">
-			<Option target="glfw"/>
-		</Unit>
-		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/glfw-3.3/src/osmesa_context.h">
-			<Option target="glfw"/>
-		</Unit>
-		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/glfw-3.3/src/posix_thread.c">
-			<Option target="glfw"/>
-		</Unit>
-		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/glfw-3.3/src/posix_thread.h">
-			<Option target="glfw"/>
-		</Unit>
-		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/glfw-3.3/src/vulkan.c">
-			<Option target="glfw"/>
-		</Unit>
-		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/glfw-3.3/src/window.c">
-			<Option target="glfw"/>
 		</Unit>
 		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/grid.cpp">
 			<Option target="assignment3starter"/>
@@ -297,15 +109,6 @@
 			<Option target="assignment3starter"/>
 		</Unit>
 		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/shared_main.h">
-			<Option target="assignment3starter"/>
-		</Unit>
-		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/simulator/Camera.h">
-			<Option target="assignment3starter"/>
-		</Unit>
-		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/simulator/main.cpp">
-			<Option target="assignment3starter"/>
-		</Unit>
-		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/simulator/shader.h">
 			<Option target="assignment3starter"/>
 		</Unit>
 		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/util.h">
@@ -334,27 +137,6 @@
 		</Unit>
 		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
-		</Unit>
-		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/glfw-3.3/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\glfw-3.3\"/>
-		</Unit>
-		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/glfw-3.3/cmake_uninstall.cmake.in">
-			<Option virtualFolder="CMake Files\glfw-3.3\"/>
-		</Unit>
-		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/glfw-3.3/src/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\glfw-3.3\src\"/>
-		</Unit>
-		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/glfw-3.3/src/glfw3.pc.in">
-			<Option virtualFolder="CMake Files\glfw-3.3\src\"/>
-		</Unit>
-		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/glfw-3.3/src/glfw3Config.cmake.in">
-			<Option virtualFolder="CMake Files\glfw-3.3\src\"/>
-		</Unit>
-		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/glfw-3.3/src/glfw_config.h.in">
-			<Option virtualFolder="CMake Files\glfw-3.3\src\"/>
-		</Unit>
-		<Unit filename="/Users/alishelton/Desktop/184/Projects/assignment3starter/glm/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\glm\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

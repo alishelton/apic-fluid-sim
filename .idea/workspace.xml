@@ -2,9 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="assignment3starter" targetName="uninstall" />
       <config projectName="assignment3starter" targetName="assignment3starter" />
-      <config projectName="assignment3starter" targetName="glfw" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -16,32 +14,191 @@
     <list default="true" id="442d5db7-03af-446c-abf4-6d0ba4623589" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array3.h" beforeDir="false" afterPath="$PROJECT_DIR$/array3.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/assignment3starter.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/assignment3starter.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/assignment3starter.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/assignment3starter.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/assignment3starter.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/assignment3starter.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/assignment3starter.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/assignment3starter.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/assignment3starter.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/assignment3starter.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/assignment3starter.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/assignment3starter.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/assignment3starter.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/assignment3starter.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/assignment3starter.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/assignment3starter.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/glm/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/glm/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/glfw-3.3/src/CMakeFiles/glfw.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/glfw-3.3/src/CMakeFiles/glfw.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flip2d" beforeDir="false" afterPath="$PROJECT_DIR$/flip2d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flip2d_release" beforeDir="false" afterPath="$PROJECT_DIR$/flip2d_release" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flip2dv" beforeDir="false" afterPath="$PROJECT_DIR$/flip2dv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flip2dv_release" beforeDir="false" afterPath="$PROJECT_DIR$/flip2dv_release" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grid.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/grid.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grid.h" beforeDir="false" afterPath="$PROJECT_DIR$/grid.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/grid.o" beforeDir="false" afterPath="$PROJECT_DIR$/obj/grid.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj_debug/grid.o" beforeDir="false" afterPath="$PROJECT_DIR$/obj_debug/grid.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/obj/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/mainwithviewer.o" beforeDir="false" afterPath="$PROJECT_DIR$/obj/mainwithviewer.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/particles.o" beforeDir="false" afterPath="$PROJECT_DIR$/obj/particles.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj_debug/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/obj_debug/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj_debug/mainwithviewer.o" beforeDir="false" afterPath="$PROJECT_DIR$/obj_debug/mainwithviewer.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj_debug/particles.o" beforeDir="false" afterPath="$PROJECT_DIR$/obj_debug/particles.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0002" beforeDir="false" afterPath="$PROJECT_DIR$/outpic/frameparticles0002" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0003" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0004" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0005" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0006" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0007" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0008" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0009" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0010" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0011" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0012" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0013" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0014" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0015" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0016" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0017" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0018" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0019" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0020" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0021" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0022" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0023" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0024" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0025" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0026" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0027" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0028" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0029" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0030" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0031" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0032" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0033" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0034" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0035" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0036" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0037" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0038" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0039" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0040" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0041" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0042" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0043" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0044" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0045" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0046" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0047" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0048" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0049" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0051" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0052" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0053" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0054" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0055" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0056" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0057" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0058" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0059" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0060" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0061" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0062" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0063" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0064" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0065" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0066" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0067" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0068" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0069" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0070" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0071" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0072" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0073" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0074" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0075" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0076" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0077" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0078" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0079" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0080" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0081" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0082" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0083" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0084" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0085" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0086" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0087" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0088" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0089" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0090" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0091" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0092" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0093" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0094" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0095" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0096" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0097" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0098" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0099" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0100" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0101" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0102" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0103" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0104" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0105" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0106" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0107" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0108" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0109" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0110" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0111" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0112" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0113" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0114" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0115" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0116" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0117" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0118" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0119" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0120" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0121" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0122" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0123" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0124" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0125" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0126" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0127" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0128" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0129" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0130" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0131" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0132" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0133" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0134" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0135" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0136" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0137" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0138" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0139" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0140" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0141" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0142" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0143" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0144" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0145" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0146" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outpic/frameparticles0147" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/particles.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/particles.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared_main.h" beforeDir="false" afterPath="$PROJECT_DIR$/shared_main.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simulator/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simulator/Makefile.defs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viewflip2d/obj_debug/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/viewflip2d/obj_debug/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/viewflip2d/viewflip2d" beforeDir="false" afterPath="$PROJECT_DIR$/viewflip2d/viewflip2d" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,22 +225,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/particles.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="11" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="11" />
-              <folding>
-                <element signature="e#230#247#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/particles.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1329">
-              <caret line="164" selection-start-line="164" selection-end-line="164" />
+            <state relative-caret-position="337">
+              <caret line="287" column="26" selection-start-line="287" selection-start-column="26" selection-end-line="287" selection-end-column="26" />
               <folding>
                 <element signature="e#205#221#0" expanded="true" />
               </folding>
@@ -92,10 +237,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/particles.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+              <folding>
+                <element signature="e#230#247#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grid.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+            <state>
+              <caret column="3" selection-start-column="3" selection-end-column="3" />
               <folding>
                 <element signature="e#212#231#0" expanded="true" />
               </folding>
@@ -103,41 +260,37 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grid.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="221" column="30" lean-forward="true" selection-start-line="221" selection-start-column="30" selection-end-line="221" selection-end-column="30" />
+            <state relative-caret-position="915">
+              <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/array3.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="128" column="33" selection-start-line="128" selection-start-column="33" selection-end-line="128" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/array2.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-71">
-              <caret line="103" column="12" selection-start-line="103" selection-start-column="12" selection-end-line="103" selection-end-column="12" />
-              <folding>
-                <element signature="e#236#245#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/vec3.h">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shared_main.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="876">
-              <caret line="102" column="12" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="12" />
+            <state relative-caret-position="-108">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+              <folding>
+                <element signature="e#163#180#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -146,8 +299,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>mat</find>
-      <find>marker</find>
       <find>init_phi</find>
       <find>spd</find>
       <find>bilerp</find>
@@ -170,12 +321,14 @@
       <find>g++</find>
       <find>txt</find>
       <find>MM</find>
-      <find>DEPEND</find>
       <find>gl</find>
       <find>pressure</find>
       <find>make_incom</find>
-      <find>make</find>
       <find>incre</find>
+      <find>make</find>
+      <find>init</find>
+      <find>depend</find>
+      <find>DEPEND</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -188,26 +341,27 @@
         <option value="$PROJECT_DIR$/array2.h" />
         <option value="$PROJECT_DIR$/vec3.h" />
         <option value="$PROJECT_DIR$/particles.h" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/mainwithviewer.cpp" />
-        <option value="$PROJECT_DIR$/shared_main.h" />
         <option value="$PROJECT_DIR$/simulator/Makefile" />
         <option value="$PROJECT_DIR$/simulator/Camera.h" />
         <option value="$PROJECT_DIR$/Makefile" />
         <option value="$PROJECT_DIR$/viewflip2d/Makefile.defs" />
         <option value="$PROJECT_DIR$/simulator/Makefile.defs" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/simulator/main.cpp" />
         <option value="$PROJECT_DIR$/grid.h" />
-        <option value="$PROJECT_DIR$/particles.cpp" />
         <option value="$PROJECT_DIR$/array3.h" />
         <option value="$PROJECT_DIR$/grid.cpp" />
+        <option value="$PROJECT_DIR$/particles.cpp" />
+        <option value="$PROJECT_DIR$/viewflip2d/main.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/shared_main.h" />
+        <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="1440" />
+    <option name="width" value="1094" />
     <option name="height" value="824" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -226,7 +380,7 @@
             <path>
               <item name="assignment3starter" type="b2602c69:ProjectViewProjectNode" />
               <item name="assignment3starter" type="462c0819:PsiDirectoryNode" />
-              <item name="simulator" type="462c0819:PsiDirectoryNode" />
+              <item name="outpic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="assignment3starter" type="b2602c69:ProjectViewProjectNode" />
@@ -247,6 +401,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/simulator" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -262,27 +417,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.assignment3starter">
+  <component name="RunManager">
     <configuration name="assignment3starter" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="assignment3starter" TARGET_NAME="assignment3starter" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="assignment3starter" RUN_TARGET_NAME="assignment3starter">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="glfw" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="assignment3starter" TARGET_NAME="glfw" CONFIG_NAME="Debug">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="uninstall" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="assignment3starter" TARGET_NAME="uninstall" CONFIG_NAME="Debug">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.assignment3starter" />
-      <item itemvalue="Application.uninstall" />
-      <item itemvalue="Application.glfw" />
-    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -309,24 +449,23 @@
       <workItem from="1557300515183" duration="71000" />
       <workItem from="1557300626963" duration="1306000" />
       <workItem from="1557302389300" duration="360000" />
-      <workItem from="1557307530237" duration="13088000" />
+      <workItem from="1557307530237" duration="30359000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103864000" />
+    <option name="totallyTimeSpent" value="121135000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="824" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="824" extended-state="6" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4986339" visible="true" weight="0.24320458" />
       <window_info id="Structure" order="2" sideWeight="0.50136614" side_tool="true" weight="0.24964234" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.088797815" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.29508197" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info anchor="bottom" id="CMake" order="3" weight="0.3456284" />
+      <window_info anchor="bottom" id="CMake" order="3" weight="0.2704918" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.329235" />
       <window_info anchor="bottom" id="Database Changes" order="6" />
@@ -345,68 +484,10 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/outpic/frameparticles0001">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/outpic/frameparticles0003">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/outpic/frameparticles0012">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="19" column="59" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/outpic/frameparticles0000.ppm" />
-    <entry file="file://$PROJECT_DIR$/outpic/frameparticles0000">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/outpic/frameparticles0015">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="314" column="9" selection-start-line="314" selection-start-column="9" selection-end-line="314" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vec3.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vec2.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mainwithviewer.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="85" column="41" selection-start-line="85" selection-start-column="41" selection-end-line="85" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/simulator/shader.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <element signature="e#163#180#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -416,34 +497,13 @@
     <entry file="file://$PROJECT_DIR$/viewflip2d/obj/depend">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/simulator/Camera.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/glew-2.1.0/include/GL/glew.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-141738" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/glm/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Makefile.defs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/glew-2.1.0/Makefile">
       <provider selected="true" editor-type-id="text-editor">
@@ -471,50 +531,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/viewflip2d/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/simulator/Makefile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="574">
           <caret line="48" column="25" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simulator/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-          <folding>
-            <element signature="e#145#167#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/viewflip2d/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#173#190#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/viewflip2d/gluvi.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="655">
-          <caret line="561" column="1" selection-start-line="561" selection-start-column="1" selection-end-line="561" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -535,30 +555,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/particles.cpp">
+    <entry file="file://$PROJECT_DIR$/simulator/Camera.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1329">
-          <caret line="164" selection-start-line="164" selection-end-line="164" />
-          <folding>
-            <element signature="e#205#221#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="137">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/particles.h">
+    <entry file="file://$PROJECT_DIR$/viewflip2d/Makefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="11" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="11" />
-          <folding>
-            <element signature="e#230#247#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shared_main.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="876">
-          <caret line="102" column="12" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="12" />
+        <state relative-caret-position="465">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
@@ -572,17 +579,152 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/array3.h">
+    <entry file="file://$PROJECT_DIR$/simulator/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="128" column="33" selection-start-line="128" selection-start-column="33" selection-end-line="128" selection-end-column="33" />
+        <state relative-caret-position="60">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding>
+            <element signature="e#145#167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outpic/frameparticles0001">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outpic/frameparticles0002">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outpic/frameparticles0003">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outpic/frameparticles0004">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outpic/frameparticles0005">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outpic/frameparticles0006">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outpic/frameparticles0007">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outpic/frameparticles0008">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outpic/frameparticles0009">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outpic/frameparticles0010">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outpic/frameparticles0011">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outpic/frameparticles0012">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outpic/frameparticles0013">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outpic/frameparticles0014">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outpic/frameparticles0015">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="314" column="9" selection-start-line="314" selection-start-column="9" selection-end-line="314" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outpic/frameparticles0018">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outpic/frameparticles0019">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outpic/frameparticles0022">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outpic/frameparticles0016">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outpic/frameparticles0030">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viewflip2d/gluvi.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="710" column="9" selection-start-line="710" selection-start-column="5" selection-end-line="710" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simulator/vec3.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viewflip2d/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1168">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+          <folding>
+            <element signature="e#173#190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile.defs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="72" column="25" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outpic/frameparticles0000">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/particles.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="287" column="26" selection-start-line="287" selection-start-column="26" selection-end-line="287" selection-end-column="26" />
+          <folding>
+            <element signature="e#205#221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/particles.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <element signature="e#230#247#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grid.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
           <folding>
             <element signature="e#212#231#0" expanded="true" />
           </folding>
@@ -591,8 +733,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grid.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="221" column="30" lean-forward="true" selection-start-line="221" selection-start-column="30" selection-end-line="221" selection-end-column="30" />
+        <state relative-caret-position="915">
+          <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/array3.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="128" column="33" selection-start-line="128" selection-start-column="33" selection-end-line="128" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vec3.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shared_main.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+          <folding>
+            <element signature="e#163#180#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

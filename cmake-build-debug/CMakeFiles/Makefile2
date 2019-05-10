@@ -68,10 +68,10 @@ CMAKE_BINARY_DIR = /Users/alishelton/Desktop/184/Projects/assignment3starter/cma
 # Target rules for target CMakeFiles/assignment3starter.dir
 
 # All Build rule for target.
-CMakeFiles/assignment3starter.dir/all: glfw-3.3/src/CMakeFiles/glfw.dir/all
+CMakeFiles/assignment3starter.dir/all:
 	$(MAKE) -f CMakeFiles/assignment3starter.dir/build.make CMakeFiles/assignment3starter.dir/depend
 	$(MAKE) -f CMakeFiles/assignment3starter.dir/build.make CMakeFiles/assignment3starter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target assignment3starter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target assignment3starter"
 .PHONY : CMakeFiles/assignment3starter.dir/all
 
 # Include target in all.
@@ -81,7 +81,7 @@ all: CMakeFiles/assignment3starter.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/assignment3starter.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/assignment3starter.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/assignment3starter.dir/rule
@@ -100,130 +100,6 @@ CMakeFiles/assignment3starter.dir/clean:
 clean: CMakeFiles/assignment3starter.dir/clean
 
 .PHONY : clean
-
-#=============================================================================
-# Directory level rules for directory glfw-3.3
-
-# Convenience name for "all" pass in the directory.
-glfw-3.3/all: glfw-3.3/src/all
-
-.PHONY : glfw-3.3/all
-
-# Convenience name for "clean" pass in the directory.
-glfw-3.3/clean: glfw-3.3/CMakeFiles/uninstall.dir/clean
-glfw-3.3/clean: glfw-3.3/src/clean
-
-.PHONY : glfw-3.3/clean
-
-# Convenience name for "preinstall" pass in the directory.
-glfw-3.3/preinstall: glfw-3.3/src/preinstall
-
-.PHONY : glfw-3.3/preinstall
-
-#=============================================================================
-# Target rules for target glfw-3.3/CMakeFiles/uninstall.dir
-
-# All Build rule for target.
-glfw-3.3/CMakeFiles/uninstall.dir/all:
-	$(MAKE) -f glfw-3.3/CMakeFiles/uninstall.dir/build.make glfw-3.3/CMakeFiles/uninstall.dir/depend
-	$(MAKE) -f glfw-3.3/CMakeFiles/uninstall.dir/build.make glfw-3.3/CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/CMakeFiles --progress-num= "Built target uninstall"
-.PHONY : glfw-3.3/CMakeFiles/uninstall.dir/all
-
-# Build rule for subdir invocation for target.
-glfw-3.3/CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 glfw-3.3/CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/CMakeFiles 0
-.PHONY : glfw-3.3/CMakeFiles/uninstall.dir/rule
-
-# Convenience name for target.
-uninstall: glfw-3.3/CMakeFiles/uninstall.dir/rule
-
-.PHONY : uninstall
-
-# clean rule for target.
-glfw-3.3/CMakeFiles/uninstall.dir/clean:
-	$(MAKE) -f glfw-3.3/CMakeFiles/uninstall.dir/build.make glfw-3.3/CMakeFiles/uninstall.dir/clean
-.PHONY : glfw-3.3/CMakeFiles/uninstall.dir/clean
-
-# clean rule for target.
-clean: glfw-3.3/CMakeFiles/uninstall.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Directory level rules for directory glfw-3.3/src
-
-# Convenience name for "all" pass in the directory.
-glfw-3.3/src/all: glfw-3.3/src/CMakeFiles/glfw.dir/all
-
-.PHONY : glfw-3.3/src/all
-
-# Convenience name for "clean" pass in the directory.
-glfw-3.3/src/clean: glfw-3.3/src/CMakeFiles/glfw.dir/clean
-
-.PHONY : glfw-3.3/src/clean
-
-# Convenience name for "preinstall" pass in the directory.
-glfw-3.3/src/preinstall:
-
-.PHONY : glfw-3.3/src/preinstall
-
-#=============================================================================
-# Target rules for target glfw-3.3/src/CMakeFiles/glfw.dir
-
-# All Build rule for target.
-glfw-3.3/src/CMakeFiles/glfw.dir/all:
-	$(MAKE) -f glfw-3.3/src/CMakeFiles/glfw.dir/build.make glfw-3.3/src/CMakeFiles/glfw.dir/depend
-	$(MAKE) -f glfw-3.3/src/CMakeFiles/glfw.dir/build.make glfw-3.3/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/CMakeFiles --progress-num=9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24 "Built target glfw"
-.PHONY : glfw-3.3/src/CMakeFiles/glfw.dir/all
-
-# Include target in all.
-all: glfw-3.3/src/CMakeFiles/glfw.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-glfw-3.3/src/CMakeFiles/glfw.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/CMakeFiles 16
-	$(MAKE) -f CMakeFiles/Makefile2 glfw-3.3/src/CMakeFiles/glfw.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alishelton/Desktop/184/Projects/assignment3starter/cmake-build-debug/CMakeFiles 0
-.PHONY : glfw-3.3/src/CMakeFiles/glfw.dir/rule
-
-# Convenience name for target.
-glfw: glfw-3.3/src/CMakeFiles/glfw.dir/rule
-
-.PHONY : glfw
-
-# clean rule for target.
-glfw-3.3/src/CMakeFiles/glfw.dir/clean:
-	$(MAKE) -f glfw-3.3/src/CMakeFiles/glfw.dir/build.make glfw-3.3/src/CMakeFiles/glfw.dir/clean
-.PHONY : glfw-3.3/src/CMakeFiles/glfw.dir/clean
-
-# clean rule for target.
-clean: glfw-3.3/src/CMakeFiles/glfw.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Directory level rules for directory glm
-
-# Convenience name for "all" pass in the directory.
-glm/all:
-
-.PHONY : glm/all
-
-# Convenience name for "clean" pass in the directory.
-glm/clean:
-
-.PHONY : glm/clean
-
-# Convenience name for "preinstall" pass in the directory.
-glm/preinstall:
-
-.PHONY : glm/preinstall
 
 #=============================================================================
 # Special targets to cleanup operation of make.
